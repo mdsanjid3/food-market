@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    overflow: hidden;
+}
+/* header part css start */
+.header-part {
+    background-color: #FFB11F;
+}
+.contact-icon a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.socail-icon a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #FFB11F;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0 0 0 28px ;
+}
+/* header part css End */
+/* navbar part css start */
+.nav-link {
+    font-size: 20px;
+    margin: 0 8px;
+    font-weight: bold;
+    color: #FFB11F;
+}
+/* navbar part css End */
+/* <!-- slider part css start --> */
+.slider-part {
+    background-image: url(./image/slider.jpg);
+    background-size:cover ;
+    height: 600px;
+    width: 100%;
+    
+}
+.slider-text h3{
+    margin-top: 100px;
+    font-weight: bold;
+}
+.slider-text h1{
+    font-size: 60px;
+}
+.slider-text p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* <!-- slider part css End --> */
+/* about part css start */
+.section-padding {
+    padding: 70px 0;
+}
+.about-heading {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.about-single-part-1 {
+    background-color: #FFB11F;
+    height: 300px;
+    box-shadow: 20px 20px 50px grey;
+    transition: box-shadow 0.3s ease;
+    transition: all 0.8s ease-in-out;
+    
+}
+
+.about-single-part-1:hover{
+    transform: translateY(-10px);
+}
+.about-single-part-2{
+    background-color: #F54830;
+    height: 300px;
+    box-shadow: 20px 20px 50px grey;
+    transition: box-shadow 0.3s ease;
+    transition: all 0.8s ease-in-out;
+
+}
+.about-single-part-2:hover{
+    transform: translateY(-10px);
+}
+.about-single-part-3{
+    background-color: #83BA43;
+    height: 300px;
+    box-shadow: 20px 20px 50px grey;
+    transition: box-shadow 0.3s ease;
+    transition: all 0.8s ease-in-out;
+}
+.about-single-part-3:hover{
+    transform: translateY(-10px);
+}
+.about-single-part-4{
+    background-color: #852D6D;
+    height: 300px;
+    box-shadow: 20px 20px 50px grey;
+    transition: box-shadow 0.3s ease;
+    transition: all 0.8s ease-in-out;
+}
+.about-single-part-4:hover{
+    transform: translateY(-10px);
+}
+.about-image img{
+    margin-top: 20px;
+}
+.about-image:hover img{
+    transform: scale(1.1);
+}
+.about-text{
+    color: white;
+}
+.about-text h3{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.about-text h1{
+    font-size: 30px;
+}
+/* about part css End */
+/* service part start */
+.service-icon  {
+    font-size: 50px;
+    background-color: #FFB11F;
+    padding: 0 15px;
+    margin-top: 100px;
+    border-radius: 25px;
+    color: #7B7D7D;
+}
+.service-text {
+    margin-top: 100px;
+}
+.service-text h1{
+    font-size: 22px;
+}
+.service-text h1:hover{
+    color: #FFB11F;
+}
+/* service part End */
+/* product part css start */
+.product-text h1{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.product-text i {
+    color: #FFB11F;
+}
+.product-text h3{
+    margin-top: 10px;
+}
+.product-text h1:hover{
+    color: #FFB11F;
+    transition: .4s;
+}
+.product-image:hover img{
+    transform: scale(1.1);
+}
+.overlay{
+   position: absolute;
+    opacity: 0;
+    transition: .5s;
+   
+}
+.overlay{
+    padding: 0 65px;
+}
+.product-con-main{
+    transition: box-shadow 0.3s ease;
+    transition: all 0.8s ease-in-out;
+}
+.product-con-main:hover .overlay{
+    opacity: 1;
+   
+}
+.product-con-main:hover{
+    transform: translateY(-10px);
+}
+/* product part css End */
+.hero-part {
+    background-color: #FFB11F;
+}
+.hero-image img{
+    height: 400px;
+    width: 500px;
+    margin-top: 20px;
+}
+.hero-text h1 {
+    margin-top: 70px;
+    font-size: 40px;
+    color: white;
+}
+.hero-text p{
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.hero{
+    background-color: white;
+    text-align: center;
+    height: 80px;
+    width: 130px;
+}
+.hero h2{
+    margin-top: 20px;
+    font-size: 23px;
+    color: #FFB11F;
+}
+.hero h3{
+    font-size: 20px;
+}
+/* hero part  css End */
+/* product-card  css start */
+.product-card-image img{
+    margin-top: 20px;
+}
+.product-card-main {
+    border: 1px solid white;
+    height: 200px;
+    box-shadow: 1px 1px 8px grey;
+}
+.product-card-text h1{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.product-card-main:hover{
+    transform: translateY(-10px);
+}
+.product-card-text h1:hover{
+    color: #FFB11F;
+    transition: .3s;
+}
+.product-card-image:hover img{
+    transform: scale(1.1);
+}
+.product-card-text i{
+    color: #FFB11F;
+}
+.product-card-text h3{
+    font-size: 20px;
+    margin-top: 8px;
+    color: #FFB11F;
+}
+/* product-card css End */
+/* food product css start */
+.food-con-main{
+    border: 1px solid rgb(221, 216, 216);
+}
+.food-image img{
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    margin-top: 20px;
+}
+.food-image{
+    position: relative;
+    overflow: hidden;
+}
+.food-image:hover img{
+    transform: scale(1.1);
+}
+.food-text h1{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.food-text i{
+    color: #FFB11F;
+}
+.food-text h5{
+    margin-top: 5px;
+}
+.food-con-main{
+    position: relative;
+    width: 250px;
+    height: 320px;
+    margin: 15px;
+    transition: box-shadow 0.3s ease;
+    overflow: hidden;
+    background: white;
+    border-radius: 15px;
+    transition: all 0.8s ease-in-out;
+}
+.food-con-main:hover{
+    transform: translateY(-10px);
+}
+.team-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(27, 19, 19);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.food-con-main:hover .team-overlay{
+    opacity: 1;
+}
+.add-to-card {
+    background-color: #fff;
+    color: #566573;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    margin-bottom: 10px;
+}
+.add-to-card:hover{
+    background-color: #FFB11F;
+    color: #fff;
+    border: none;
+}
+/* food product css End */
+/* client part css start */
+.client-con-main{
+    border: 1px solid white;
+    box-shadow: 1px 1px 8px grey;
+
+}
+.client-con-main:hover{
+    transform: translateY(-10px);
+}
+.client-image img{
+    height: 120px;
+    width: 100%;
+    padding: 10px 15px;
+}
+.client-image:hover img{
+    transform: scale(1.1);
+}
+.client-text h1{
+    font-size: 23px;
+    margin-top: 10px;
+}
+.client-text h3{
+    font-size: 20px;
+}
+.client-text i{
+    color: #FFB11F;
+}
+.client-con-main p{
+    margin-top: 30px;
+   padding: 0 10px;
+}
+.client-text h1:hover{
+    color: #FFB11F;
+    transition: .3s;
+}
+
+
+/* footer part css start */
+
+.footer-product-image img{
+    height: 70px;
+    width: 100%;
+    margin: 10px;
+}
+.footer-product-image:hover img{
+    transform: scale(1.1);
+}
+.footer-product-text h1{
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+}
+.footer-product-text:hover h1{
+    color: #FFB11F;
+    transition: .3s;
+} 
+.footer-product-text h2{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.footer-gallery-image img{
+    margin-top: 10px;
+    height: 100px;
+    width: 90px;
+}
+.footer-gallery-image:hover img{
+    transform: scale(1.1);
+}
